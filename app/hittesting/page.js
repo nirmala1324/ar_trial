@@ -1,10 +1,11 @@
-import YourARScene from "@/components/yourARScene";
+import HitTesting from "@/components/HitTesting";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <YourARScene />
+      <HitTesting />
+      <Image />
     </main>
   );
 }
